@@ -1,0 +1,5 @@
+<div>
+  <h1>US Time Zone Display</h1>
+  <button [ngClass] = "{'yellow': pstTime}" (click)='pst()'>PST</button> <button [ngClass] = "{'yellow': mstTime}" (click)='mst()'>MST</button> <button [ngClass] = "{'yellow': cstTime}" (click)='cst()'>CST</button> <button [ngClass] = "{'yellow': estTime}" (click)='est()'>EST</button> <button (click)='clear()'>Clear</button>
+  <h2>{{theDate}}  {{theTime}}</h2>
+</div>
